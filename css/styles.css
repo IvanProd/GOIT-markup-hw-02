@@ -1,7 +1,7 @@
 :root {
     /*### ШРИФТЫ ###*/
-    --maine-font: Roboto-Medium, sans-serif;
-    --secondary-font: Raleway-Regular, sans-serif;
+    --maine-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
 
     /*### политра ###*/
 
@@ -72,12 +72,12 @@
 /*логотип*/
 .logo {
 }
-.logo-link {
+.logo__link {
     text-decoration: none;
 }
 
 /*левая часть логотипа*/
-.logo-text-left {
+.logo__text {
     font-family: var(--secondary-font);
     font-style: normal;
     font-weight: bold;
@@ -87,7 +87,7 @@
 }
 
 /*правая часть логотипа*/
-.logo-text-right {
+.logo__text--accent {
     font-family: var(--secondary-font);
     font-style: normal;
     font-weight: bold;
@@ -97,7 +97,7 @@
 }
 
 /*список сылок навигации*/
-.navigation-list {
+.navigation__list {
     list-style: none;
     font-family: var(--maine-font);
     font-style: normal;
@@ -108,21 +108,17 @@
 }
 
 /*элементы навигации*/
-.navigation-item-studio {
-}
-.navigation-item-portfolio {
-}
-.navigation-item-contacts {
+.navigation__item {
 }
 
 /*ссылки навигации*/
-.navigation-link {
+.navigation__link {
     text-decoration: none;
     color: var(--text-menu-color);
 }
 /*акценты*/
-.navigation-link:hover, 
-.navigation-link:focus{
+.navigation__link:hover, 
+.navigation__link:focus{
     color: var(--text-menu-accent);
 }
 .accent{
@@ -130,7 +126,7 @@
 }
 
 /*контакты почта и телефон*/
-.header-mail-link {
+.header__link {
     text-decoration: none;
     font-family: var(--maine-font);
     font-style: normal;
@@ -140,20 +136,9 @@
     color: var(--link-telephon-and-mail);
 
 }
-.header-telephone-link {
-    text-decoration: none;
-    font-family: var(--maine-font);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.142;
-    color: var(--link-telephon-and-mail);
 
-}
-.header-mail-link:hover,
-.header-telephone-link:hover,
-.header-mail-link:focus,
-.header-telephone-link:focus {
+.header__link:hover,
+.header__link:focus {
     text-decoration: none;
     font-family: var(--maine-font);
     font-style: normal;
