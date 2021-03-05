@@ -154,7 +154,7 @@
 .hero {
     background-color: var(--hero-bakeground-color);
 }
-.hero-heder {
+.hero__title {
     font-family: var(--maine-font);
     font-style: normal;
     font-weight: 900;
@@ -163,14 +163,14 @@
     text-align: center;
     color: var(--hero-text-color);
 }
-.hero-button {
+.hero__button {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
     background-color: var(--button-color);
 
 }
-.button-text {
+.hreo__button-text {
     font-family: var(--maine-font);
     font-style: normal;
     font-weight: bold;
