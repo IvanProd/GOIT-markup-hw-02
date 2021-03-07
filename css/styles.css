@@ -39,7 +39,7 @@
     --footer-logo-left: #2196F3;
     --footer-logo-right: #fff;
     --footer-address-location: #fff;
-    --footer-address-contact: #fff;
+    --footer-address-contact: rgba(255, 255, 255, 0.6);;
 
     /*ПОРТФОЛИО*/
 
@@ -163,6 +163,7 @@
     line-height: 1.363;
     text-align: center;
     color: var(--hero-text-color);
+    text-transform: uppercase;
 }
 .hero__button {
     width: 200px;
@@ -179,6 +180,9 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 1.875;
+
+    letter-spacing: 0.06em;
+
     color: var(--hero-text-color);
 }
 
@@ -219,6 +223,8 @@
     font-weight: bold;
     font-size: 14px;
     line-height: 1.142;
+    text-transform: uppercase;
+
     color: var(--feature-head-color);
 }
 .features__item-text {
