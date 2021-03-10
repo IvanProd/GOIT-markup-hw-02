@@ -430,6 +430,7 @@
 }
 .pojects__list {
     font-family: var(--maine-font);
+    list-style: none;
 }
 .project__item {
 }
